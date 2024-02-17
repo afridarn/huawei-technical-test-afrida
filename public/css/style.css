@@ -172,3 +172,10 @@ label.active {
     margin-top: 20px;
   }
 }
+
+@media only screen and (min-width: 721px) {
+  #registered-data-wrapper {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+}
